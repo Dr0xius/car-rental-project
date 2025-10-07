@@ -55,6 +55,7 @@ nav {
     right: 0;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .nav__row {
@@ -157,7 +158,7 @@ nav {
     position: absolute;
     background: transparent;
     top: 40px;
-    right: 30px;
+    right: 20px;
     font-size: 24px;
     color: black;
 }
@@ -187,7 +188,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1;
+    z-index: 0;
 }
 
 .header__image__wrapper {
@@ -329,17 +330,17 @@ header {
 #banner {
     color: white;
     background-color: rgb(37, 37, 37);
-    padding: 50px 20px;
 }
 
 .banner__container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 20px;
-    width: 100%;
-    height: 100%;
+    padding: 56px 20px;
 }
 
 .banner__title {
@@ -388,7 +389,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .choose__subtitle {
@@ -429,7 +430,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    width: 440px;
+    max-width: 440px;
 }
 
 .choose__feature__image__wrapper {
